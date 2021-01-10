@@ -1,0 +1,50 @@
+code[class*="language-javascript"],
+pre[class*="language-javascript"] {
+  color: $red;
+}
+
+.language-javascript {
+  color: $red;
+  .token {
+    &.punctuation {
+      color: $white;
+    }
+    &.comment {
+      color: $gray;
+      font-style: italic;
+    }
+    &.keyword.this,
+    &.dom.variable,
+    &.class-name {
+      color: $yellow;
+    }
+    &.null,
+    &.boolean,
+    &.number {
+      color: $orange;
+    }
+    &.property-access,
+    &.imports,
+    &.parameter {
+      color: $red;
+    }
+    &.parameter {
+      font-style: italic;
+    }
+    &.keyword {
+      color: $purple;
+    }
+    &.function,
+    &.property-access.function.method {
+      color: $blue;
+    }
+    &.regex-source,
+    &.operator {
+      color: $green-blue;
+    }
+    &.regex-delimiter,
+    &.string {
+      color: $green;
+    }
+  }
+}

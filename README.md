@@ -14,6 +14,8 @@ Because One Dark Pro is the greatest theme of all time.
 
 Use `one-dark-pro.css` instead of the default `prism.css`.
 
+Also, optionally, use `one-dark-pro.js` along with the default `prism.js`. This script fixes the style for a few keywords that can't be acheived with CSS, this includes the keyword `this` for JavaScript, the operators `:=` and `<-` for Go and vendor prefixes (`-moz`, etc) for CSS.
+
 ## Development
 
 Make sure you have Sass installed.

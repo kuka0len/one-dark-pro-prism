@@ -1,7 +1,32 @@
 body {
   background-color: #1e2024;
   color: rgb(189, 204, 218);
-  padding: 10px;
-  margin: 0;
+  padding: 2vw;
+  margin: auto;
+  max-width: 800px;
+  font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+header,
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #56b6c2;
+}
+a:hover {
+  color: #6ceeff;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  transition: 0.3s;
+}
+img:hover {
+  transform: scale(1.05);
 }

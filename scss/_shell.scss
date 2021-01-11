@@ -1,0 +1,23 @@
+.language-bash,
+.language-shell {
+  .token {
+    &.string {
+      color: $green;
+    }
+    &.shebang.important,
+    &.comment {
+      color: $gray;
+      font-style: italic;
+    }
+    &.builtin.class-name,
+    &.entity {
+      color: $green-blue;
+    }
+    &.keyword {
+      color: $purple;
+    }
+    &.variable {
+      color: $red;
+    }
+  }
+}

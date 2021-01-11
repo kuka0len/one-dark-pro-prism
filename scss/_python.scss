@@ -1,0 +1,22 @@
+.language-python {
+  .token {
+    &.string {
+      color: $green;
+    }
+    &.comment {
+      color: $gray;
+      font-style: italic;
+    }
+    &.keyword {
+      color: $purple;
+      font-style: italic;
+    }
+    &.operator,
+    &.function {
+      color: $green-blue;
+    }
+    &.number {
+      color: $orange;
+    }
+  }
+}

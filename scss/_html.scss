@@ -1,0 +1,31 @@
+.language-html {
+  .token {
+    &.doctype-tag {
+      color: $red;
+    }
+    &.name {
+      color: $orange;
+    }
+    &.punctuation {
+      color: $white;
+    }
+    &.tag {
+      .token.tag {
+        color: $red;
+      }
+      .token.attr-name {
+        color: $orange;
+      }
+      .token.attr-value {
+        color: $green;
+        .token.punctuation.attr-equals {
+          color: $white;
+        }
+      }
+    }
+    &.comment {
+      color: $gray;
+      font-style: italic;
+    }
+  }
+}

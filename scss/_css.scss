@@ -1,0 +1,46 @@
+code[class*="language-css"],
+pre[class*="language-css"] {
+  color: $orange;
+}
+
+.language-css {
+  .token {
+    &.operator,
+    &.punctuation,
+    &.property,
+    &.operator,
+    &.combinator {
+      color: $white;
+    }
+    &.attr-name,
+    &.color,
+    &.number,
+    &.class {
+      color: $orange;
+    }
+
+    &.attr-value,
+    &.string {
+      color: $green;
+    }
+    &.selector,
+    &.unit {
+      color: $red;
+    }
+    &.property.prefix,
+    &.pseudo-element,
+    &.pseudo-class {
+      color: $green-blue;
+    }
+    &.atrule {
+      color: $white;
+      .token.rule {
+        color: $purple;
+      }
+    }
+    &.comment {
+      color: $gray;
+      font-style: italic;
+    }
+  }
+}

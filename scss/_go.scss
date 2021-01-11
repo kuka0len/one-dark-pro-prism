@@ -1,0 +1,24 @@
+.language-go {
+  .token {
+    &.string {
+      color: $green;
+    }
+    &.function {
+      color: $blue;
+    }
+    &.keyword,
+    &.operator,
+    &.builtin {
+      color: $purple;
+    }
+    &.number {
+      color: $orange;
+    }
+    &.operator.colon-equal {
+      color: $yellow;
+    }
+    &.operator.left-arrow {
+      color: $green-blue;
+    }
+  }
+}

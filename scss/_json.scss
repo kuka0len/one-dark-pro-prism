@@ -1,0 +1,19 @@
+.language-json {
+  .token {
+    &.punctuation,
+    &.operator {
+      color: $white;
+    }
+    &.string {
+      color: $green;
+    }
+    &.boolean,
+    &.number,
+    &.null.keyword {
+      color: $orange;
+    }
+    &.property {
+      color: $red;
+    }
+  }
+}

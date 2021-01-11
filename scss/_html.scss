@@ -18,8 +18,11 @@
       }
       .token.attr-value {
         color: $green;
-        .token.punctuation.attr-equals {
-          color: $white;
+        .token.punctuation {
+          color: $green;
+          &.attr-equals {
+            color: $white;
+          }
         }
       }
     }
